@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css\reset.css" />
+    <link rel="stylesheet" href="css\cadastro.css" />
+    <title>Cadastro</title>
+  </head>
+  <body>
+    <header>
+      <div class="caixa">
+        <a href="index.html">
+          <img class="imgInicio" src="/img/2.png" alt="" />
+        </a>
+        <ul class="link">
+          <a class="menu" href="index.html">Inicio</a>
+          <a class="menu" href="curso.html">Vídeo</a>
+          <a class="menu" href="cadastro.html">Cadastro</a>
+        </ul>
+      </div>
+
+      <img class="imgPrincipal" src="\img\0.png" alt="" />
+    </header>
+
+    <main>
+      <section>
+        <h3 class="contatos">Contatos</h3>
+        <fieldset> 
+          <form
+            id="frmContatos"
+            action="local_que_recebebe_informações"
+            method="POST"
+          >
+
+            <p>
+              <label for="nome"> Nome: </label>
+              <input
+                type="text"
+                id="txtNome"
+                name="nome"
+                size="60px"
+                maxlength="10"
+                placeholder="Digite seu nome"
+                required
+              />
+            </p>
+    
+            <p>
+              <label for="endereco">Endereço:</label>
+              <input type="text" id="txtEndereco" name="End" />
+            </p>
+    
+            <p>
+              <label for="telefone">Telefone:</label>
+              <input type="text" id="txtTelefone" name="Tel" />
+            </p>
+    
+            <p><label for="obs">Observação:</label></p>
+            <textarea name="obs" id="txtObs" cols="60" rows="5"></textarea><br />
+            <select name="estados" id="txtEstado">
+              <option value="SP">São Paulo</option>
+              <option value="RJ">Rio de Janeiro</option>
+              <option value="MG">Minas Gerais</option></select
+            ><br />
+    
+            <p>
+              <label for="sexo">Sexo:</label> <br />
+              <input type="radio" value="M" name="sexo" />Masculino <br />
+              <input type="radio" value="F" name="sexo" />Feminino <br />
+            </p><br>
+
+            <label for="hobies" name="hobies">Selecione seus Hobies:</label><br />
+            <input type="checkbox" name="hobies" value="Ler" />ler <br />
+            <input type="checkbox" name="hobies" value="Ouvir Musica" />Ouvir Musica
+            <br />
+            <input type="checkbox" name="hobies" value="Viajar" />Viajar <br />
+    
+            <p>
+              <label for="email">E-mail</label>
+              <input type="email" id="txtEmail" /><br />
+              <label for="data">Data</label>
+              <input type="data" id="txtEmail" /><br />
+            </p>
+    
+            <p class="enviar">
+              <input type="submit" id="btnEnviar" value="Cadastrar" />
+              <input type="reset" id="btnApagar" value="Apagar" />
+            </p>
+          </form>
+        </fieldset> 
+      </section>
+
+    </main>
+  </header>
+
+  <footer>
+    <p class="copyrigth">&copy; Filipe de Souza Rolim da Mata_RGM:25697048_Análise e esenvolvimento de sistemas - 2021</p>
+  </footer>
+  </body>
+</html>

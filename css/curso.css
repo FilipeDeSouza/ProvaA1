@@ -1,0 +1,70 @@
+body {
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.caixa {
+  width: 100%;
+  margin: 5px auto;
+  position: fixed;
+}
+
+.imgInicio {
+  margin: 0 100px;
+  width: 70px;
+}
+
+.link {
+  float: right;
+  margin: 30px 100px;
+}
+
+.menu {
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 50px;
+  color: black;
+}
+
+.menu:hover {
+  color: yellow;
+  text-decoration: underline;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.imgPrincipal {
+  width: 100%;
+}
+
+.titulo-cursos {
+  font-size: 2em;
+  margin: 1em 0 0 0;
+  text-align: center;
+}
+
+.areacurso {
+  display: flex;
+  margin: 50px 0 50px 0;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.imgcursos {
+  margin: 0 0 10px 0;
+  height: 150px;
+  width: 200px;
+}
+
+.descrição {
+  text-align: center;
+  width: 220px;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  padding: 20px;
+  background-color: black;
+}
